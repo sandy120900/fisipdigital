@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIAKAD - FISIP Digital Hub</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- Custom Styles & Components -->
+  <link rel="stylesheet" href="style.css">
+  <script src="components/navbar.js"></script>
+  <script src="components/footer.js"></script>
+</head>
+<body class="bg-gray-50">
+
+  <custom-navbar></custom-navbar>
+
+  <!-- Bagian Tools di Tengah -->
+  <div class="flex justify-center items-center min-h-[80vh]">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center">
+      
+      <!-- Tombol SIAKAD -->
+      <a href="http://student.unpi.ac.id/" 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         class="bg-blue-600 text-white font-semibold px-6 py-4 rounded-lg shadow-md hover:bg-blue-700 transition flex flex-col items-center">
+        <i data-feather="book-open" class="w-8 h-8 mb-2"></i>
+        Portal Mahasiswa
+      </a>
+
+      <!-- Tombol E-Learning -->
+      <a href="https://elearning.unpi.ac.id/" 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         class="bg-green-600 text-white font-semibold px-6 py-4 rounded-lg shadow-md hover:bg-green-700 transition flex flex-col items-center">
+        <i data-feather="monitor" class="w-8 h-8 mb-2"></i>
+        E-Learning
+      </a>
+
+      <!-- Tombol Jurnal -->
+      <a href="https://ejournal.unpi.ac.id/index.php/lyceum" 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         class="bg-purple-600 text-white font-semibold px-6 py-4 rounded-lg shadow-md hover:bg-purple-700 transition flex flex-col items-center">
+        <i data-feather="book" class="w-8 h-8 mb-2"></i>
+        Jurnal FISIP
+      </a>
+
+      <!-- Tombol Perpustakaan -->
+      <a href="https://library.unpi.ac.id/" 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         class="bg-orange-600 text-white font-semibold px-6 py-4 rounded-lg shadow-md hover:bg-orange-700 transition flex flex-col items-center">
+        <i data-feather="archive" class="w-8 h-8 mb-2"></i>
+        Perpustakaan
+      </a>
+
+      <!-- Tombol Website UNPI -->
+      <a href="https://unpi.ac.id/" 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         class="bg-gray-700 text-white font-semibold px-6 py-4 rounded-lg shadow-md hover:bg-gray-800 transition flex flex-col items-center">
+        <i data-feather="home" class="w-8 h-8 mb-2"></i>
+        Website UNPI
+      </a>
+
+       <!-- Tombol tracer study -->
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScn3pemu1MSg4YBqNlZM-Cv4Am6ZxymRvmvt6BFs4I9APGzZA/viewform" 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         class="bg-green-600 text-white font-semibold px-6 py-4 rounded-lg shadow-md hover:bg-green-700 transition flex flex-col items-center">
+        <i data-feather="monitor" class="w-8 h-8 mb-2"></i>
+        Tracer Study
+      </a>
+
+       <!-- Tombol Kepuasan mahasiswa tahun akademik 2021/2022 -->
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScn3pemu1MSg4YBqNlZM-Cv4Am6ZxymRvmvt6BFs4I9APGzZA/viewform" 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         class="bg-yellow-600 text-white font-semibold px-6 py-4 rounded-lg shadow-md hover:bg-yellow-700 transition flex flex-col items-center">
+        <i data-feather="monitor" class="w-8 h-8 mb-2"></i>
+        Kepuasan Mahasiswa 2021/2022
+      </a>
+
+       <!-- Tombol Kepuasan mahasiswa tahun akademik 2022/2023 -->
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7IemJsEP_4hNownunXeHOV0zjwuPTqhSHm5Ud7opA79N1JQ/viewform" 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         class="bg-red-600 text-white font-semibold px-6 py-4 rounded-lg shadow-md hover:bg-red-700 transition flex flex-col items-center">
+        <i data-feather="monitor" class="w-8 h-8 mb-2"></i>
+        Kepuasan Mahasiswa 2022/2023
+      </a>
+
+       <!-- Tombol Kepuasan mahasiswa tahun akademik 2023/2024 -->
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSc723q0lCEOMx_vygfsTwd7HM48kgjzCENd2HEJXxYAgYYJsw/viewform" 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         class="bg-blue-600 text-white font-semibold px-6 py-4 rounded-lg shadow-md hover:bg-blue-700 transition flex flex-col items-center">
+        <i data-feather="monitor" class="w-8 h-8 mb-2"></i>
+        Kepuasan Mahasiswa 2023/2024
+      </a>
+        
+    </div>
+  </div>
+
+  <custom-footer></custom-footer>
+
+  <script src="script.js"></script>
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>

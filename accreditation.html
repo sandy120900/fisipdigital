@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akreditasi - FISIP Digital Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+</head>
+<body class="bg-gray-50">
+    <custom-navbar></custom-navbar>
+    
+    <main class="container mx-auto px-4 py-8">
+        <div class="max-w-4xl mx-auto">
+            <div class="bg-white rounded-xl shadow-md p-6 mb-6">
+                <h1 class="text-2xl font-bold mb-6 text-gray-800">Akreditasi Fakultas Ilmu Sosial dan Ilmu Politik</h1>
+                
+                <!-- Accreditation Status -->
+                <div class="mb-8">
+                    <h2 class="text-xl font-bold mb-4 text-gray-800">Status Akreditasi</h2>
+                    <div class="bg-gradient-to-r from-green-600 to-green-700 rounded-xl p-6 text-white">
+                        <div class="flex items-center">
+                            <div class="bg-white/20 p-3 rounded-lg mr-4">
+                                <i data-feather="award" class="h-8 w-8"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">Akreditasi A (Sangat Baik)</h3>
+                                <p class="text-green-100">BAN-PT Nomor: 1234/SK/BAN-PT/Akred/PT/IV/2023</p>
+                                <p class="text-green-100">Berlaku hingga: 20 April 2028</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Study Programs Accreditation -->
+                <div class="mb-8">
+                    <h2 class="text-xl font-bold mb-4 text-gray-800">Akreditasi Program Studi</h2>
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full bg-white rounded-lg overflow-hidden">
+                            <thead class="bg-gray-100">
+                                <tr>
+                                    <th class="py-3 px-4 text-left">Program Studi</th>
+                                    <th class="py-3 px-4 text-left">Jenjang</th>
+                                    <th class="py-3 px-4 text-left">Akreditasi</th>
+                                    <th class="py-3 px-4 text-left">Nomor SK</th>
+                                    <th class="py-3 px-4 text-left">Berlaku Hingga</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200">
+                                <tr>
+                                    <td class="py-3 px-4">Ilmu Politik</td>
+                                    <td class="py-3 px-4">S1</td>
+                                    <td class="py-3 px-4"><span class="bg-green-100 text-green-800 px-2 py-1 rounded">A</span></td>
+                                    <td class="py-3 px-4">5678/SK/BAN-PT/Akred/S/I/2023</td>
+                                    <td class="py-3 px-4">15 Januari 2028</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Accreditation Documents -->
+                <div class="mb-8">
+                    <h2 class="text-xl font-bold mb-4 text-gray-800">Dokumen Akreditasi</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <a href="#" class="document-card bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition flex items-start">
+                            <div class="bg-blue-100 p-3 rounded-lg mr-4">
+                                <i data-feather="file-text" class="text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold mb-1">SK Akreditasi Institusi</h3>
+                                <p class="text-sm text-gray-600">SK BAN-PT No. 1234/SK/BAN-PT/Akred/PT/IV/2023</p>
+                                <p class="text-xs text-gray-500 mt-2">PDF, 2.4 MB</p>
+                            </div>
+                        </a>
+                        <a href="#" class="document-card bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition flex items-start">
+                            <div class="bg-green-100 p-3 rounded-lg mr-4">
+                                <i data-feather="file-text" class="text-green-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold mb-1">Laporan Akreditasi</h3>
+                                <p class="text-sm text-gray-600">Laporan evaluasi diri untuk proses akreditasi</p>
+                                <p class="text-xs text-gray-500 mt-2">PDF, 5.7 MB</p>
+                            </div>
+                        </a>
+                        <a href="#" class="document-card bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition flex items-start">
+                            <div class="bg-purple-100 p-3 rounded-lg mr-4">
+                                <i data-feather="file-text" class="text-purple-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold mb-1">Instrumen Akreditasi</h3>
+                                <p class="text-sm text-gray-600">Pedoman dan instrumen penilaian akreditasi</p>
+                                <p class="text-xs text-gray-500 mt-2">PDF, 1.2 MB</p>
+                            </div>
+                        </a>
+                        <a href="#" class="document-card bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition flex items-start">
+                            <div class="bg-yellow-100 p-3 rounded-lg mr-4">
+                                <i data-feather="file-text" class="text-yellow-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold mb-1">Rencana Pengembangan</h3>
+                                <p class="text-sm text-gray-600">Dokumen rencana pengembangan pasca akreditasi</p>
+                                <p class="text-xs text-gray-500 mt-2">PDF, 3.1 MB</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Accreditation Process -->
+                <div>
+                    <h2 class="text-xl font-bold mb-4 text-gray-800">Proses Akreditasi</h2>
+                    <div class="bg-gray-50 rounded-lg p-6">
+                        <div class="flex flex-col md:flex-row gap-6 mb-6">
+                            <div class="flex-shrink-0">
+                                <div class="bg-blue-600 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl">1</div>
+                            </div>
+                            <div>
+                                <h3 class="font-bold mb-2">Evaluasi Diri</h3>
+                                <p class="text-gray-600">Fakultas melakukan penilaian mandiri terhadap seluruh aspek penyelenggaraan pendidikan menggunakan instrumen akreditasi yang ditetapkan BAN-PT.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col md:flex-row gap-6 mb-6">
+                            <div class="flex-shrink-0">
+                                <div class="bg-blue-600 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl">2</div>
+                            </div>
+                            <div>
+                                <h3 class="font-bold mb-2">Pengajuan Dokumen</h3>
+                                <p class="text-gray-600">Mengajukan dokumen evaluasi diri dan dokumen pendukung lainnya ke BAN-PT untuk dinilai oleh asesor.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col md:flex-row gap-6 mb-6">
+                            <div class="flex-shrink-0">
+                                <div class="bg-blue-600 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl">3</div>
+                            </div>
+                            <div>
+                                <h3 class="font-bold mb-2">Visitasi</h3>
+                                <p class="text-gray-600">Tim asesor BAN-PT melakukan kunjungan ke fakultas untuk memverifikasi dokumen dan menilai kondisi nyata.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col md:flex-row gap-6">
+                            <div class="flex-shrink-0">
+                                <div class="bg-blue-600 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl">4</div>
+                            </div>
+                            <div>
+                                <h3 class="font-bold mb-2">Penetapan Hasil</h3>
+                                <p class="text-gray-600">BAN-PT menetapkan hasil akreditasi berdasarkan rekomendasi asesor dan rapat pleno.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <custom-footer></custom-footer>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>

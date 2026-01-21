@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FISIP Digital Hub - Universitas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+</head>
+<body class="bg-gray-50">
+    <custom-navbar></custom-navbar>
+    
+    <main class="container mx-auto px-4 py-8">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-orange-600 to-indigo-800 rounded-xl p-8 text-white mb-12">
+            <div class="max-w-3xl">
+                <h1 class="text-4xl font-bold mb-4">Selamat Datang di FISIP Digital Hub</h1>
+                <p class="text-xl mb-6">Portal Sistem Informasi Fakultas Ilmu Sosial dan Ilmu Politik</p>
+                <a href="#" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-medium inline-block hover:bg-orange-50 transition">Mulai Jelajahi</a>
+            </div>
+        </section>
+
+        <!-- Quick Access Grid -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-6 text-gray-800">Akses Cepat</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <a href="siakad.html" class="quick-access-card bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition flex items-center">
+                    <div class="bg-blue-100 p-3 rounded-lg mr-4">
+                        <i data-feather="user" class="text-blue-600"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg mb-1">SIAKAD</h3>
+                        <p class="text-gray-600">Sistem Informasi Akademik</p>
+                    </div>
+                </a>
+                <a href="elearning.html" class="quick-access-card bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition flex items-center">
+                    <div class="bg-green-100 p-3 rounded-lg mr-4">
+                        <i data-feather="book" class="text-green-600"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg mb-1">Pembelajaran Elektronik</h3>
+                        <p class="text-gray-600">E-Learning Platform</p>
+                    </div>
+                </a>
+                <a href="library.html" class="quick-access-card bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition flex items-center">
+                    <div class="bg-purple-100 p-3 rounded-lg mr-4">
+                        <i data-feather="book-open" class="text-purple-600"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg mb-1">Perpustakaan Elektronik</h3>
+                        <p class="text-gray-600">Digital Library</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-6 text-gray-800">Berita Terkini</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="news-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
+                    <img src="WhatsApp Image 2025-10-21 at 17.07.18.jpeg" alt="News Image" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm text-blue-600 font-medium">Pengumuman</span>
+                        <h3 class="font-bold text-xl my-2">Penarikan Mahasiswa Magang di KPU Sulut</h3>
+                        <p class="text-gray-600 mb-4">tahun 2024</p>
+                        <a href="#" class="text-orange-600 font-medium">Baca Selengkapnya →</a>
+                    </div>
+                </div>
+                <div class="news-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
+                    <img src="WhatsApp Image 2025-10-21 at 17.07.13.jpeg" alt="News Image" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm text-green-600 font-medium">Acara</span>
+                        <h3 class="font-bold text-xl my-2">Welcoming Maba Himpunan Mahasiswa Program studi Ilmu Politik</h3>
+                        <p class="text-gray-600 mb-4">Fakultas Ilmu Sosial Dan Ilmu Politik 2025</p>
+                        <a href="#" class="text-orange-600 font-medium">Baca Selengkapnya →</a>
+                    </div>
+                </div>
+                <div class="news-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
+                    <img src="meidi.jpeg" alt="News Image" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm text-purple-600 font-medium">Prestasi</span>
+                        <h3 class="font-bold text-xl my-2">Mahasiswa FISIP mendapat gelar Nyong Unpi Manado</h3>
+                        <p class="text-gray-600 mb-4">Meydi Pandemerah Pada Tahun 2024</p>
+                        <a href="#" class="text-orange-600 font-medium">Baca Selengkapnya →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
